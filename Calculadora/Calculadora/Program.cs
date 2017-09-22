@@ -17,14 +17,16 @@ namespace Calculadora
             Console.WriteLine(" *************************** ");
 
 #pragma warning disable CS0168 // Variable is declared but never used
-            int soma (int a, int b)
+            int soma (int a = 3, int b = 3)
 #pragma warning restore CS0168 // Variable is declared but never used
             {
 
-                return a + b;
+                Console.WriteLine ( return a + b) );
+
+                
 
             }
-            Console.ReadKey();
+            Console.ReadLine();
 
         }
 
